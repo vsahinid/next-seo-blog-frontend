@@ -5,7 +5,9 @@ const Index = () => {
   return (
     <Layout>
       <h2>Index page</h2>
-      <a href="/signup">Signup</a>
+      <Link href="/signup">
+        <a>Signup</a>
+      </Link>
     </Layout>
   );
 };
