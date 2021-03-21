@@ -25,21 +25,21 @@ const Header = () => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <a href="/">
+        <Link href="/">
           <NavLink className="font-weight-bold">{APP_NAME}</NavLink>
-        </a>
+        </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <a href="/signin">
+              <Link href="/signin">
                 <NavLink>Signin</NavLink>
-              </a>
+              </Link>
             </NavItem>
             <NavItem>
-              <a href="/signup">
+              <Link href="/signup">
                 <NavLink>Signup</NavLink>
-              </a>
+              </Link>
             </NavItem>
           </Nav>
         </Collapse>
